@@ -1,0 +1,29 @@
+{
+    "site_title": "My Website",
+    "site_tagline": "Just another WordPress site",
+    "site_logo": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/Logo.png",
+    "Site_favicon": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/favicon.png"
+    "address": "123 Main St, Anytown, USA",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@example.com",
+    "business_hours": "Mon-Fri 9am-5pm",
+    "pages": {
+        "home": {
+            "title": "Home",
+            "content": "<p>Welcome to our website!</p>"
+        },
+        "about": {
+            "title": "About Us",
+            "content": "<p>About our company.</p>"
+        },
+        "services": {
+            "title": "Services",
+            "content": "<p>Our services.</p>"
+        },
+        "contact": {
+            "title": "Contact",
+            "content": "<p>Contact us.</p>"
+        }
+    },
+    "contact_form": "<form>...</form>"
+}
