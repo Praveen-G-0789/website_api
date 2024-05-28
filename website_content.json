@@ -1,29 +1,91 @@
 {
-    "site_title": "My Website",
-    "site_tagline": "Just another WordPress site",
-    "site_logo": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/Logo.png",
-    "site_favicon": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/favicon.png",
-    "address": "123 Main St, Anytown, USA",
-    "phone": "+1 (555) 123-4567",
-    "email": "info@example.com",
-    "business_hours": "Mon-Fri 9am-5pm",
-    "pages": {
-        "home": {
-            "title": "Home",
-            "content": "<p>Welcome to our website!</p>"
+  "site_title": "My Website",
+  "site_tagline": "Just another WordPress site",
+  "site_logo": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/Logo.png",
+  "site_favicon": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/favicon.png",
+  "address": "123 Main St, Anytown, USA",
+  "phone": "+1 (555) 123-4567",
+  "email": "info@example.com",
+  "business_hours": "Mon-Fri 9am-5pm",
+  "pages": {
+    "home": {
+      "title": "Home",
+      "content": [
+        {
+          "type": "h1",
+          "text": "Unleash The Beauty Of Your Garden"
         },
-        "about": {
-            "title": "About Us",
-            "content": "<p>About our company.</p>"
+        {
+          "type": "paragraph",
+          "text": "Professional Care For A Flourishing Landscape. At Greener Bros. Landscaping, we understand the challenges of maintaining a beautiful and vibrant garden throughout the year. That’s why our expert team of gardeners is here to provide top-notch care and attention to detail that surpasses your expectations. We specialize in selecting plants that add structure, texture, foliage, flowers, and seasonal splendor to your garden. From precise pruning to meticulous watering and regular maintenance, we go the extra mile to ensure your garden remains a stunning oasis. Let us take the burden off your shoulders and transform your garden into a breathtaking landscape that will leave your neighbors in awe."
         },
-        "services": {
-            "title": "Services",
-            "content": "<p>Our services.</p>"
+        {
+          "type": "h2",
+          "text": "Why Choose Our Garden Maintenance Services?"
         },
-        "contact": {
-            "title": "Contact",
-            "content": "<p>Contact us.</p>"
+        {
+          "type": "paragraph",
+          "text": "Expertly chosen plants for structure, texture, and seasonal allure. Our knowledgeable gardeners have an eye for selecting the perfect plants that enhance the structural integrity of your garden and add texture and visual interest.
+
+Meticulous care to keep your garden company-ready year round. We understand the importance of having a garden ready to impress. Our dedicated team of gardeners goes the extra mile to provide proper care.
+
+Attention to detail that goes above and beyond your expectations. At Greener Bros. Landscaping, we believe in exceeding expectations regarding garden maintenance. With our commitment to excellence, you can expect a service that surpasses your highest expectations."
+        },
+        {
+          "type": "image",
+          "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/mostafa-meraji-iAMGDmQ6bUY-unsplash-scaled.jpg"  // Replace with the actual image URL
         }
+      ]
     },
-    "contact_form": "<form>...</form>"
+    "about": {
+      "title": "About Us",
+      "content": [
+        {
+          "type": "h1",
+          "text": "Unleash The Power Of A Pristine Lawn Experience The Difference With Our Maintenance Solutions"
+        },
+        {
+          "type": "paragraph",
+          "text": "At Greener Bros. Landscaping, we understand the significance of a well-maintained lawn in transforming the overall appeal of your home. Our dedicated lawn team is committed to providing you with a lush and healthy lawn that becomes the pride of your property.
+
+With our full-service lawn maintenance and our Garden Maintenance agreement, we offer a range of services tailored to meet your needs. We cover everything from complete lawn renovation to regular mowing, edging, trimming, and power sweeping."
+        }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "content": [
+        {
+          "type": "h1",
+          "text": "Unlock The Beauty Of Pruned Perfection In Your Garden Professional Pruning Services For A Safe And Serene Outdoor Haven"
+        },
+        {
+          "type": "paragraph",
+          "text": "Don’t let overgrown plants and trees overshadow the beauty of your garden. At Greener Bros. Landscaping, we understand the importance of regular pruning to maintain the health and aesthetics of your outdoor space.
+
+Our professional pruning services are designed to keep falling branch hazards at bay while preserving the pastoral harmony of your garden. With our expert touch, the foreboding thicket outside your door will transform into an idyllic and welcoming area.
+
+Shape, Enhance, and Embrace the Pruned Perfection of Your Garden!"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "content": [
+        {
+          "type": "h1",
+          "text": "Let's Talk About Your Dream Landscape"
+        },
+        {
+          "type": "paragraph",
+          "text": "At Greener Bros. Landscaping, we are passionate about creating breathtaking outdoor spaces that blend seamlessly with nature. Whether you need professional landscaping services, want to schedule an appointment with our certified experts, or want to join our team, we’re here to help.
+
+Our dedicated team is committed to delivering exceptional results that exceed your expectations. We can’t wait to bring your vision to life!
+
+Where Nature and Creativity Thrive"
+        }
+      ]
+    }
+  },
+  "contact_form": "<form>...</form>"
 }
