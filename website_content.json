@@ -10,6 +10,7 @@
   "pages": {
     "home": {
       "title": "Home",
+      "template": "home.php",
       "content": [
         { "type": "h1", "text": "Unleash The Beauty Of Your Garden" },
         { "type": "paragraph", "text": "Professional Care For A Flourishing Landscape. At Greener Bros. Landscaping, we understand the challenges of maintaining a beautiful and vibrant garden throughout the year. That’s why our expert team of gardeners is here to provide top-notch care and attention to detail that surpasses your expectations. We specialize in selecting plants that add structure, texture, foliage, flowers, and seasonal splendor to your garden. From precise pruning to meticulous watering and regular maintenance, we go the extra mile to ensure your garden remains a stunning oasis. Let us take the burden off your shoulders and transform your garden into a breathtaking landscape that will leave your neighbors in awe." },
@@ -20,6 +21,7 @@
     },
     "about": {
       "title": "About Us",
+      "template": "about.php",
       "content": [
         { "type": "h1", "text": "Unleash The Power Of A Pristine Lawn Experience The Difference With Our Maintenance Solutions" },
         { "type": "paragraph", "text": "At Greener Bros. Landscaping, we understand the significance of a well-maintained lawn in transforming the overall appeal of your home. Our dedicated lawn team is committed to providing you with a lush and healthy lawn that becomes the pride of your property. With our full-service lawn maintenance and our Garden Maintenance agreement, we offer a range of services tailored to meet your needs. We cover everything from complete lawn renovation to regular mowing, edging, trimming, and power sweeping." }
@@ -27,6 +29,7 @@
     },
     "services": {
       "title": "Services",
+      "template": "services.php",
       "content": [
         { "type": "h1", "text": "Unlock The Beauty Of Pruned Perfection In Your Garden Professional Pruning Services For A Safe And Serene Outdoor Haven" },
         { "type": "paragraph", "text": "Don’t let overgrown plants and trees overshadow the beauty of your garden. At Greener Bros. Landscaping, we understand the importance of regular pruning to maintain the health and aesthetics of your outdoor space. Our professional pruning services are designed to keep falling branch hazards at bay while preserving the pastoral harmony of your garden. With our expert touch, the foreboding thicket outside your door will transform into an idyllic and welcoming area. Shape, Enhance, and Embrace the Pruned Perfection of Your Garden!" }
@@ -34,6 +37,7 @@
     },
     "contact": {
       "title": "Contact",
+      "template": "contact.php",
       "content": [
         { "type": "h1", "text": "Let's Talk About Your Dream Landscape" },
         { "type": "paragraph", "text": "At Greener Bros. Landscaping, we are passionate about creating breathtaking outdoor spaces that blend seamlessly with nature. Whether you need professional landscaping services, want to schedule an appointment with our certified experts, or want to join our team, we’re here to help. Our dedicated team is committed to delivering exceptional results that exceed your expectations. We can’t wait to bring your vision to life! Where Nature and Creativity Thrive" }
