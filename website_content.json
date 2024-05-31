@@ -95,7 +95,7 @@
     },
     "services": {
       "title": "Services",
-      "template": "services-template.php",
+      "template": "services.php",
       "sections": [
         {
           "type": "hero",
@@ -130,7 +130,7 @@
           "background_color": "bg-light",
           "columns": [
             {
-              "image": "service-2-image-url",
+              "image": "http://localhost/automation/wp-content/uploads/2024/05/anthony-esau-N2zk9yXjmLA-unsplash.jpg",
               "title": "Service 2",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
@@ -140,7 +140,7 @@
           "type": "service",
           "columns": [
             {
-              "image": "service-3-image-url",
+              "image": "http://localhost/automation/wp-content/uploads/2024/05/daniel-chen-cNaEqXSsZ0k-unsplash.jpg",
               "title": "Service 3",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
@@ -158,11 +158,11 @@
     },
     "gallery": {
       "title": "Gallery",
-      "template": "gallery-template.php",
+      "template": "gallery.php",
       "sections": [
         {
           "type": "hero",
-          "image": "path/to/your/image.jpg",
+          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
           "title": "Gallery",
           "description": "Our collection of work."
         },
@@ -170,8 +170,20 @@
           "type": "gallery",
           "images": [
             {
-              "url": "gallery-image-url",
-              "description": "Image Description"
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/v2osk-1Z2niiBPg5A-unsplash.jpg",
+              "description": "Image 1"
+            },
+            {
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/adam-kool-ndN00KmbJ1c-unsplash.jpg",
+              "description": "Image 2"
+            },
+            {
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/robert-lukeman-_RBcxo9AU-U-unsplash.jpg",
+              "description": "Image 3"
+            },
+            {
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/tim-swaan-eOpewngf68w-unsplash.jpg",
+              "description": "Image 4"
             }
           ]
         },
@@ -187,11 +199,11 @@
     },
     "contact": {
       "title": "Contact",
-      "template": "contact-template.php",
+      "template": "contact.php",
       "sections": [
         {
           "type": "hero",
-          "image": "path/to/your/image.jpg",
+          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
           "title": "Contact Us",
           "description": "We'd love to hear from you."
         },
