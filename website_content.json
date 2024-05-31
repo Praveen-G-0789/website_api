@@ -173,7 +173,6 @@
               "url": "gallery-image-url",
               "description": "Image Description"
             }
-            // Add more images as needed
           ]
         },
         {
@@ -204,7 +203,7 @@
               "address": "123 Main St, Anytown, USA",
               "phone": "+1 (555) 123-4567",
               "email": "info@example.com",
-			  "business_hours": "Mon-Fri 9am-5pm",
+              "business_hours": "Mon-Fri 9am-5pm"
             },
             {
               "form_shortcode": "[contact-form-7 id=\"your-form-id\" title=\"Contact form 1\"]"
