@@ -1,8 +1,86 @@
 {
-  "site_title": "Your Website Title",
-  "site_tagline": "Your Website Tagline",
-  "site_logo": "http://localhost/automation/wp-content/uploads/2024/05/Logo.jpg",
-  "site_favicon": "http://localhost/automation/wp-content/uploads/2024/05/favicon.jpg",
+  "globalSettings": {
+    "siteTitle": "Your Website Title",
+    "siteTagline": "Your Website Tagline",
+    "siteLogo": "http://localhost/automation/wp-content/uploads/2024/05/Logo.jpg",
+    "siteFavicon": "http://localhost/automation/wp-content/uploads/2024/05/favicon.jpg",
+    "layout": {
+      "width": "FullWidth",
+      "boxed": false
+    },
+    "colors": {
+      "backgroundColor": "#FFFFFF",
+      "accentColor": "#FF5733",
+      "linkColor": "#0066CC",
+      "linkHoverColor": "#FF5733"
+    },
+    "contentWidth": "100%", 
+    "responsiveBreakpoints": {
+      "themeMediumBreakpoint": "1024px",
+      "themeMobileBreakpoint": "768px"
+    },
+    "headingStyles": {
+      "color": "#333333",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "Bold",
+      "fontFormat": "Uppercase",
+      "fontSize": "24px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0.5px"
+    },
+    "textStyles": {
+      "color": "#666666",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "Normal",
+      "lineHeight": "1.6"
+    },
+    "buttonStyles": {
+      "textColor": "#FFFFFF",
+      "textHoverColor": "#000000",
+      "backgroundColor": "#FF5733",
+      "backgroundHoverColor": "#333333",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "SemiBold",
+      "textTransform": "Uppercase",
+      "borderStyle": "Solid",
+      "borderRadius": "5px"
+    },
+    "headerStyles": {
+      "topBarLayout": "2 Columns",
+      "topBarStyle": {
+        "backgroundColor": "#333333",
+        "textColor": "#FFFFFF",
+        "linkColor": "#FF5733",
+        "linkHoverColor": "#FF9999"
+      },
+      "headerLayout": "Nav Right",
+      "fixedHeader": true,
+      "effects": {
+        "fadeIn": true,
+        "shrink": true,
+        "fixed": true
+      },
+      "headerLogo": {
+        "type": "Image",
+        "url": "path_to_logo_image"
+      }
+    },
+    "siteSettings": {
+      "siteIdentity": {
+        "siteTitle": "My Website",
+        "tagline": "The best website ever",
+        "favIcon": "path_to_favicon"
+      },
+      "permalinkStructure": "Post name"
+    },
+    "footerStyles": {
+      "footerLayout": "4 Columns",
+      "backgroundColor": "#333333",
+      "textColor": "#FFFFFF",
+      "linkColor": "#FF5733",
+      "linkHoverColor": "#FF9999"
+    }
+  },
   "pages": {
     "home": {
       "title": "Home",
@@ -171,19 +249,15 @@
           "images": [
             {
               "url": "http://localhost/automation/wp-content/uploads/2024/05/v2osk-1Z2niiBPg5A-unsplash.jpg",
-              "description": "Image 1"
+              "alt": "Sample Image"
             },
             {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/adam-kool-ndN00KmbJ1c-unsplash.jpg",
-              "description": "Image 2"
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/christopher-burns-kj2C7eYdPGo-unsplash.jpg",
+              "alt": "Sample Image"
             },
             {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/robert-lukeman-_RBcxo9AU-U-unsplash.jpg",
-              "description": "Image 3"
-            },
-            {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/tim-swaan-eOpewngf68w-unsplash.jpg",
-              "description": "Image 4"
+              "url": "http://localhost/automation/wp-content/uploads/2024/05/jason-leung-poI7DelFiVA-unsplash.jpg",
+              "alt": "Sample Image"
             }
           ]
         },
@@ -193,7 +267,7 @@
           "title": "Contact Us",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
-          "button_link": "contact-page-url"
+          "button_link": "/contact/"
         }
       ]
     },
@@ -205,22 +279,19 @@
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
           "title": "Contact Us",
-          "description": "We'd love to hear from you."
+          "description": "We're here to help. Reach out to us anytime."
         },
         {
-          "type": "contact-info",
-          "columns": [
-            {
-              "title": "Contact Information",
-              "address": "123 Main St, Anytown, USA",
-              "phone": "+1 (555) 123-4567",
-              "email": "info@example.com",
-              "business_hours": "Mon-Fri 9am-5pm"
-            },
-            {
-              "form_shortcode": "[contact-form-7 id=\"your-form-id\" title=\"Contact form 1\"]"
-            }
-          ]
+          "type": "contact-form",
+          "form_id": "12345"
+        },
+        {
+          "type": "cta",
+          "background_color": "#007bff",
+          "title": "Get in Touch",
+          "description": "Feel free to drop us a line anytime.",
+          "button_text": "Contact Us",
+          "button_link": "/contact/"
         }
       ]
     }
