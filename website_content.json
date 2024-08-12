@@ -89,7 +89,7 @@
         {
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/bence-balla-schottner-deGn9vSwXIM-unsplash.jpg",
-          "title": "Welcome to Our Website",
+          "title": "<h1>Welcome to Our Website</h1>",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           "button_text": "Learn More",
           "button_link": "/about/"
@@ -98,7 +98,7 @@
           "type": "content-row",
           "columns": [
             {
-              "title": "About Us",
+              "title": "<h2>About Us</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
@@ -110,19 +110,19 @@
           "type": "three-columns",
           "columns": [
             {
-              "title": "Service 1",
+              "title": "<h3>Service 1</h3>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "button_text": "Service 1",
               "button_link": "/services/"
             },
             {
-              "title": "Service 2",
+              "title": "<h3>Service 2</h3>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "button_text": "Service 2",
               "button_link": "/services/"
             },
             {
-              "title": "Service 3",
+              "title": "<h3>Service 3</h3>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "button_text": "Service 3",
               "button_link": "/services/"
@@ -132,7 +132,7 @@
         {
           "type": "cta",
           "background_color": "#007bff",
-          "title": "Contact Us",
+          "title": "<h2>Contact Us</h2>",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
           "button_link": "/contact/"
@@ -146,14 +146,14 @@
         {
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "About Us",
+          "title": "<h1>About Us</h1>",
           "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
           "type": "content-row",
           "columns": [
             {
-              "title": "Our Story",
+              "title": "<h2>Our Story</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
@@ -164,7 +164,7 @@
         {
           "type": "cta",
           "background_color": "#007bff",
-          "title": "Contact Us",
+          "title": "<h2>Contact Us</h2>",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
           "button_link": "/contact/"
@@ -178,14 +178,14 @@
         {
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "Our Services",
+          "title": "<h1>Our Services</h1>",
           "description": "Discover what we offer."
         },
         {
           "type": "content-row",
           "columns": [
             {
-              "title": "Service Overview",
+              "title": "</h2>Service Overview</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
@@ -198,7 +198,7 @@
           "columns": [
             {
               "image": "http://localhost/automation/wp-content/uploads/2024/05/cfphotosin-photography-HJbv998de9s-unsplash.jpg",
-              "title": "Service 1",
+              "title": "<h2>Service 1</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           ]
@@ -209,7 +209,7 @@
           "columns": [
             {
               "image": "http://localhost/automation/wp-content/uploads/2024/05/anthony-esau-N2zk9yXjmLA-unsplash.jpg",
-              "title": "Service 2",
+              "title": "<h2>Service 2</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           ]
@@ -219,7 +219,7 @@
           "columns": [
             {
               "image": "http://localhost/automation/wp-content/uploads/2024/05/daniel-chen-cNaEqXSsZ0k-unsplash.jpg",
-              "title": "Service 3",
+              "title": "<h2>Service 3</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           ]
@@ -227,7 +227,7 @@
         {
           "type": "cta",
           "background_color": "#007bff",
-          "title": "Contact Us",
+          "title": "<h2>Contact Us</h2>",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
           "button_link": "contact-page-url"
@@ -241,7 +241,7 @@
         {
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "Gallery",
+          "title": "<h1>Our Gallery</h2>",
           "description": "Our collection of work."
         },
         {
@@ -264,7 +264,7 @@
         {
           "type": "cta",
           "background_color": "#007bff",
-          "title": "Contact Us",
+          "title": "<h2>Contact Us</h2>",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
           "button_link": "/contact/"
@@ -278,7 +278,7 @@
         {
           "type": "hero",
           "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "Contact Us",
+          "title": "<h1>Contact Us</h1>",
           "description": "We're here to help. Reach out to us anytime."
         },
         {
@@ -288,7 +288,7 @@
         {
           "type": "cta",
           "background_color": "#007bff",
-          "title": "Get in Touch",
+          "title": "<h2>Get in Touch</h2>",
           "description": "Feel free to drop us a line anytime.",
           "button_text": "Contact Us",
           "button_link": "/contact/"
