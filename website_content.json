@@ -230,54 +230,7 @@
           "title": "<h2>Contact Us</h2>",
           "description": "Have a question or need assistance? Contact us today.",
           "button_text": "Contact Us",
-          "button_link": "contact-page-url"
-        }
-      ]
-    },
-    "gallery": {
-      "title": "Gallery",
-      "template": "gallery.php",
-      "sections": [
-        {
-          "type": "gallery",
-          "images": [
-            "http://localhost/automation/wp-content/uploads/2024/05/gallery1.jpg",
-            "http://localhost/automation/wp-content/uploads/2024/05/gallery2.jpg",
-            "http://localhost/automation/wp-content/uploads/2024/05/gallery3.jpg"
-          ]
-        }
-      ]
-    },
-    "contact": {
-      "title": "Contact",
-      "template": "contact.php",
-      "sections": [
-        {
-          "type": "contact-form",
-          "form": {
-            "action": "/submit-form/",
-            "method": "POST"
-          },
-          "fields": [
-            {
-              "label": "Name",
-              "type": "text",
-              "name": "name",
-              "required": true
-            },
-            {
-              "label": "Email",
-              "type": "email",
-              "name": "email",
-              "required": true
-            },
-            {
-              "label": "Message",
-              "type": "textarea",
-              "name": "message",
-              "required": true
-            }
-          ]
+          "button_link": "/contact/"
         }
       ]
     }
