@@ -1,238 +1,323 @@
 {
-  "globalSettings": {
-    "siteTitle": "Your Website Title",
-    "siteTagline": "Your Website Tagline",
-    "siteLogo": "http://localhost/automation/wp-content/uploads/2024/05/Logo.jpg",
-    "siteFavicon": "http://localhost/automation/wp-content/uploads/2024/05/favicon.jpg",
-    "layout": {
-      "width": "FullWidth",
-      "boxed": false
-    },
-    "colors": {
-      "backgroundColor": "#FFFFFF",
-      "accentColor": "#FF5733",
-      "linkColor": "#0066CC",
-      "linkHoverColor": "#FF5733"
-    },
-    "contentWidth": "100%",
-    "responsiveBreakpoints": {
-      "themeMediumBreakpoint": "1024px",
-      "themeMobileBreakpoint": "768px"
-    },
-    "headingStyles": {
-      "color": "#333333",
-      "fontFamily": "Arial, sans-serif",
-      "fontWeight": "Bold",
-      "fontFormat": "Uppercase",
-      "fontSize": "24px",
-      "lineHeight": "1.5",
-      "letterSpacing": "0.5px"
-    },
-    "textStyles": {
-      "color": "#666666",
-      "fontFamily": "Arial, sans-serif",
-      "fontWeight": "Normal",
-      "lineHeight": "1.6"
-    },
-    "buttonStyles": {
-      "textColor": "#FFFFFF",
-      "textHoverColor": "#000000",
-      "backgroundColor": "#FF5733",
-      "backgroundHoverColor": "#333333",
-      "fontFamily": "Arial, sans-serif",
-      "fontWeight": "SemiBold",
-      "textTransform": "Uppercase",
-      "borderStyle": "Solid",
-      "borderRadius": "5px"
-    },
-    "headerStyles": {
-      "topBarLayout": "2 Columns",
-      "topBarStyle": {
-        "backgroundColor": "#333333",
-        "textColor": "#FFFFFF",
-        "linkColor": "#FF5733",
-        "linkHoverColor": "#FF9999"
-      },
-      "headerLayout": "Nav Right",
-      "fixedHeader": true,
-      "effects": {
-        "fadeIn": true,
-        "shrink": true,
-        "fixed": true
-      },
-      "headerLogo": {
-        "type": "Image",
-        "url": "path_to_logo_image"
-      }
-    },
-    "siteSettings": {
-      "siteIdentity": {
-        "siteTitle": "My Website",
-        "tagline": "The best website ever",
-        "favIcon": "path_to_favicon"
-      },
-      "permalinkStructure": "Post name"
-    },
-    "footerStyles": {
-      "footerLayout": "4 Columns",
-      "backgroundColor": "#333333",
-      "textColor": "#FFFFFF",
-      "linkColor": "#FF5733",
-      "linkHoverColor": "#FF9999"
-    }
-  },
-  "pages": {
-    "home": {
-      "title": "Home",
-      "template": "home.php",
-      "sections": [
-        {
-          "type": "hero",
-          "image": "http://localhost/automation/wp-content/uploads/2024/05/bence-balla-schottner-deGn9vSwXIM-unsplash.jpg",
-          "title": "<h1>Welcome to Our Website</h1>",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "button_text": "Learn More",
-          "button_link": "/about/"
+    "siteTitle": "My Awesome Website",
+    "siteTagline": "Delivering Quality",
+    "siteFavicon": "https://example.com/favicon.ico",
+    "globalSettings": {
+        "layout": {
+            "width": "FullWidth",
+            "background_color": "#f4f4f4",
+            "content_width": "1200px"
         },
-        {
-          "type": "content-row",
-          "columns": [
-            {
-              "title": "<h2>About Us</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "colors": {
+            "accent_color": "#ff5733",
+            "link_color": "#1a73e8",
+            "link_hover_color": "#d32f2f"
+        },
+        "responsiveBreakpoints": {
+            "themeMediumBreakpoint": "1024px",
+            "themeMobileBreakpoint": "768px"
+        },
+        "headingStyles": {
+            "color": "#333333",
+            "fontFamily": "Arial, sans-serif",
+            "fontWeight": "Bold",
+            "fontFormat": "Uppercase",
+            "fontSize": "32px",
+            "lineHeight": "1.5",
+            "letterSpacing": "1px"
+        },
+        "textStyles": {
+            "color": "#555555",
+            "fontFamily": "Verdana, sans-serif",
+            "fontWeight": "Normal",
+            "lineHeight": "1.8"
+        },
+        "buttonStyles": {
+            "textColor": "#ffffff",
+            "textHoverColor": "#ffffff",
+            "backgroundColor": "#ff5733",
+            "backgroundHoverColor": "#e53935",
+            "fontFamily": "Arial, sans-serif",
+            "fontWeight": "Medium",
+            "textTransform": "Uppercase",
+            "borderStyle": "Solid",
+            "borderRadius": "5px"
+        },
+        "headerStyles": {
+            "topBarLayout": "2 Columns",
+            "topBarStyle": {
+                "backgroundColor": "#333333",
+                "textColor": "#ffffff",
+                "linkColor": "#ff5733",
+                "linkHoverColor": "#e53935"
             },
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/samarth-shirke-ghxL3qOfkPo-unsplash.jpg"
+            "headerLayout": "Nav Right",
+            "fixedHeader": {
+                "enabled": true,
+                "effect": "Shrink"
+            },
+            "headerLogo": {
+                "type": "Image",
+                "imageUrl": "https://example.com/logo.png"
             }
-          ]
         },
-        {
-          "type": "three-columns",
-          "columns": [
-            {
-              "title": "<h3>Service 1</h3>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "button_text": "Service 1",
-              "button_link": "/services/"
-            },
-            {
-              "title": "<h3>Service 2</h3>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "button_text": "Service 2",
-              "button_link": "/services/"
-            },
-            {
-              "title": "<h3>Service 3</h3>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "button_text": "Service 3",
-              "button_link": "/services/"
+        "footerStyles": {
+            "footerLayout": "4 Columns",
+            "footerStyle": {
+                "backgroundColor": "#222222",
+                "textColor": "#ffffff",
+                "linkColor": "#ff5733",
+                "linkHoverColor": "#e53935"
             }
-          ]
+        },
+        "permalinkStructure": "Post name"
+    },
+    "pages": [
+        {
+            "title": "Home",
+            "slug": "home",
+            "sections": [
+                {
+                    "section_id": "hero_section",
+                    "content": {
+                        "background_image": "https://example.com/hero.jpg",
+                        "heading": "<h1>Welcome to Our Website</h1>",
+                        "description": "<p>Explore our wide range of services and solutions tailored just for you.</p>",
+                        "button": {
+                            "text": "Contact Us",
+                            "link": "/contact-us"
+                        }
+                    }
+                },
+                {
+                    "section_id": "intro_section",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "heading": "<h2>About Our Company</h2>",
+                            "description": "<p>Our company has been delivering quality services for over a decade...</p>"
+                        },
+                        "right_column": {
+                            "image": "https://example.com/about.jpg"
+                        }
+                    }
+                },
+                {
+                    "section_id": "services_section",
+                    "content": {
+                        "heading": "<h2>Our Services</h2>",
+                        "columns": [
+                            {
+                                "image": "https://example.com/service1.jpg",
+                                "heading": "<h3>Service 1</h3>",
+                                "description": "<p>Service 1 is designed to meet your needs...</p>",
+                                "button": {
+                                    "text": "Learn More",
+                                    "link": "/services"
+                                }
+                            },
+                            {
+                                "image": "https://example.com/service2.jpg",
+                                "heading": "<h3>Service 2</h3>",
+                                "description": "<p>Service 2 is focused on delivering results...</p>",
+                                "button": {
+                                    "text": "Learn More",
+                                    "link": "/services"
+                                }
+                            },
+                            {
+                                "image": "https://example.com/service3.jpg",
+                                "heading": "<h3>Service 3</h3>",
+                                "description": "<p>Service 3 offers a unique approach...</p>",
+                                "button": {
+                                    "text": "Learn More",
+                                    "link": "/services"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "section_id": "cta_section",
+                    "content": {
+                        "background_image": "https://example.com/cta.jpg",
+                        "heading": "<h2>Ready to Get Started?</h2>",
+                        "description": "<p>Contact us today to find out how we can help you achieve your goals.</p>",
+                        "button": {
+                            "text": "Contact Us",
+                            "link": "/contact-us"
+                        }
+                    }
+                }
+            ]
         },
         {
-          "type": "cta",
-          "background_color": "#007bff",
-          "title": "<h2>Contact Us</h2>",
-          "description": "Have a question or need assistance? Contact us today.",
-          "button_text": "Contact Us",
-          "button_link": "/contact/"
+            "title": "About",
+            "slug": "about",
+            "sections": [
+                {
+                    "section_id": "hero_section",
+                    "content": {
+                        "background_image": "https://example.com/about-hero.jpg",
+                        "heading": "<h1>About Us</h1>"
+                    }
+                },
+                {
+                    "section_id": "intro_section",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "heading": "<h2>Our Mission</h2>",
+                            "description": "<p>Our mission is to provide exceptional service...</p>"
+                        },
+                        "right_column": {
+                            "image": "https://example.com/mission.jpg"
+                        }
+                    }
+                },
+                {
+                    "section_id": "history_section",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "image": "https://example.com/history.jpg"
+                        },
+                        "right_column": {
+                            "heading": "<h2>Our History</h2>",
+                            "description": "<p>Founded in 2000, our company has a rich history...</p>"
+                        }
+                    }
+                },
+                {
+                    "section_id": "cta_section",
+                    "content": {
+                        "background_image": "https://example.com/cta.jpg",
+                        "heading": "<h2>Want to Know More?</h2>",
+                        "description": "<p>Contact us for more details about our history and values.</p>",
+                        "button": {
+                            "text": "Contact Us",
+                            "link": "/contact-us"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Services",
+            "slug": "services",
+            "sections": [
+                {
+                    "section_id": "hero_section",
+                    "content": {
+                        "background_image": "https://example.com/services-hero.jpg",
+                        "heading": "<h1>Our Services</h1>"
+                    }
+                },
+                {
+                    "section_id": "service_overview",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "heading": "<h2>Service Overview</h2>",
+                            "description": "<p>Our services are designed to provide you with the best solutions...</p>"
+                        },
+                        "right_column": {
+                            "image": "https://example.com/service-overview.jpg"
+                        }
+                    }
+                },
+                {
+                    "section_id": "service_detail_1",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "image": "https://example.com/service1-detail.jpg"
+                        },
+                        "right_column": {
+                            "heading": "<h2>Service 1 Details</h2>",
+                            "description": "<p>Service 1 offers a comprehensive approach...</p>"
+                        }
+                    }
+                },
+                {
+                    "section_id": "service_detail_2",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "heading": "<h2>Service 2 Details</h2>",
+                            "description": "<p>Service 2 focuses on delivering high-impact solutions...</p>"
+                        },
+                        "right_column": {
+                            "image": "https://example.com/service2-detail.jpg"
+                        }
+                    }
+                },
+                {
+                    "section_id": "cta_section",
+                    "content": {
+                        "background_image": "https://example.com/cta.jpg",
+                        "heading": "<h2>Get in Touch for More Info</h2>",
+                        "description": "<p>Contact us to learn more about our services and how we can help you.</p>",
+                        "button": {
+                            "text": "Contact Us",
+                            "link": "/contact-us"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gallery",
+            "slug": "gallery",
+            "sections": [
+                {
+                    "section_id": "hero_section",
+                    "content": {
+                        "background_image": "https://example.com/gallery-hero.jpg",
+                        "heading": "<h1>Our Gallery</h1>"
+                    }
+                },
+                {
+                    "section_id": "gallery_section",
+                    "content": {
+                        "heading": "<h2>Gallery</h2>",
+                        "images": [
+                            "https://example.com/gallery1.jpg",
+                            "https://example.com/gallery2.jpg",
+                            "https://example.com/gallery3.jpg",
+                            "https://example.com/gallery4.jpg",
+                            "https://example.com/gallery5.jpg",
+                            "https://example.com/gallery6.jpg"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Contact Us",
+            "slug": "contact-us",
+            "sections": [
+                {
+                    "section_id": "hero_section",
+                    "content": {
+                        "background_image": "https://example.com/contact-hero.jpg",
+                        "heading": "<h1>Contact Us</h1>"
+                    }
+                },
+                {
+                    "section_id": "contact_details",
+                    "content": {
+                        "layout": "2_columns",
+                        "left_column": {
+                            "heading": "<h2>Get in Touch</h2>",
+                            "details": "<p>Address: 123 Main St, Anytown, USA</p><p>Phone: (123) 456-7890</p><p>Email: info@example.com</p><p>Follow us on social media...</p>"
+                        },
+                        "right_column": {
+                            "gravity_form": "<!-- Gravity Form shortcode goes here -->"
+                        }
+                    }
+                }
+            ]
         }
-      ]
-    },
-    "about": {
-      "title": "About",
-      "template": "about.php",
-      "sections": [
-        {
-          "type": "hero",
-          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "<h1>About Us</h1>",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-          "type": "content-row",
-          "columns": [
-            {
-              "title": "<h2>Our Story</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            },
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/michael-weir-dpd3Hn47ojg-unsplash.jpg"
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "background_color": "#007bff",
-          "title": "<h2>Contact Us</h2>",
-          "description": "Have a question or need assistance? Contact us today.",
-          "button_text": "Contact Us",
-          "button_link": "/contact/"
-        }
-      ]
-    },
-    "services": {
-      "title": "Services",
-      "template": "services.php",
-      "sections": [
-        {
-          "type": "hero",
-          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "<h1>Our Services</h1>",
-          "description": "Discover what we offer."
-        },
-        {
-          "type": "content-row",
-          "columns": [
-            {
-              "title": "<h2>Service Overview</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            },
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/michael-weir-I_JAJNXJZs-unsplash.jpg"
-            }
-          ]
-        },
-        {
-          "type": "service",
-          "columns": [
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/cfphotosin-photography-HJbv998de9s-unsplash.jpg",
-              "title": "<h2>Service 1</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-          ]
-        },
-        {
-          "type": "service",
-          "background_color": "bg-light",
-          "columns": [
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/anthony-esau-N2zk9yXjmLA-unsplash.jpg",
-              "title": "<h2>Service 2</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-          ]
-        },
-        {
-          "type": "service",
-          "columns": [
-            {
-              "image": "http://localhost/automation/wp-content/uploads/2024/05/daniel-chen-cNaEqXSsZ0k-unsplash.jpg",
-              "title": "<h2>Service 3</h2>",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-          ]
-        },
-        {
-          "type": "cta",
-          "background_color": "#007bff",
-          "title": "<h2>Contact Us</h2>",
-          "description": "Have a question or need assistance? Contact us today.",
-          "button_text": "Contact Us",
-          "button_link": "/contact/"
-        }
-      ]
-    }
-  }
+    ]
 }
