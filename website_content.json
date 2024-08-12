@@ -76,9 +76,9 @@
         {
             "title": "Home",
             "slug": "home",
-            "sections": [
+            "containers": [
                 {
-                    "section_id": "hero_section",
+                    "container_id": "hero_section",
                     "content": {
                         "background_image": "https://example.com/hero.jpg",
                         "heading": "<h1>Welcome to Our Website</h1>",
@@ -90,7 +90,7 @@
                     }
                 },
                 {
-                    "section_id": "intro_section",
+                    "container_id": "intro_section",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -103,7 +103,7 @@
                     }
                 },
                 {
-                    "section_id": "services_section",
+                    "container_id": "services_section",
                     "content": {
                         "heading": "<h2>Our Services</h2>",
                         "columns": [
@@ -138,7 +138,7 @@
                     }
                 },
                 {
-                    "section_id": "cta_section",
+                    "container_id": "cta_section",
                     "content": {
                         "background_image": "https://example.com/cta.jpg",
                         "heading": "<h2>Ready to Get Started?</h2>",
@@ -154,16 +154,16 @@
         {
             "title": "About",
             "slug": "about",
-            "sections": [
+            "containers": [
                 {
-                    "section_id": "hero_section",
+                    "container_id": "hero_section",
                     "content": {
                         "background_image": "https://example.com/about-hero.jpg",
                         "heading": "<h1>About Us</h1>"
                     }
                 },
                 {
-                    "section_id": "intro_section",
+                    "container_id": "intro_section",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -176,7 +176,7 @@
                     }
                 },
                 {
-                    "section_id": "history_section",
+                    "container_id": "history_section",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -189,7 +189,7 @@
                     }
                 },
                 {
-                    "section_id": "cta_section",
+                    "container_id": "cta_section",
                     "content": {
                         "background_image": "https://example.com/cta.jpg",
                         "heading": "<h2>Want to Know More?</h2>",
@@ -205,16 +205,16 @@
         {
             "title": "Services",
             "slug": "services",
-            "sections": [
+            "containers": [
                 {
-                    "section_id": "hero_section",
+                    "container_id": "hero_section",
                     "content": {
                         "background_image": "https://example.com/services-hero.jpg",
                         "heading": "<h1>Our Services</h1>"
                     }
                 },
                 {
-                    "section_id": "service_overview",
+                    "container_id": "service_overview",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -227,7 +227,7 @@
                     }
                 },
                 {
-                    "section_id": "service_detail_1",
+                    "container_id": "service_detail_1",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -240,7 +240,7 @@
                     }
                 },
                 {
-                    "section_id": "service_detail_2",
+                    "container_id": "service_detail_2",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -253,7 +253,7 @@
                     }
                 },
                 {
-                    "section_id": "cta_section",
+                    "container_id": "cta_section",
                     "content": {
                         "background_image": "https://example.com/cta.jpg",
                         "heading": "<h2>Get in Touch for More Info</h2>",
@@ -269,16 +269,16 @@
         {
             "title": "Gallery",
             "slug": "gallery",
-            "sections": [
+            "containers": [
                 {
-                    "section_id": "hero_section",
+                    "container_id": "hero_section",
                     "content": {
                         "background_image": "https://example.com/gallery-hero.jpg",
                         "heading": "<h1>Our Gallery</h1>"
                     }
                 },
                 {
-                    "section_id": "gallery_section",
+                    "container_id": "gallery_section",
                     "content": {
                         "heading": "<h2>Gallery</h2>",
                         "images": [
@@ -296,16 +296,16 @@
         {
             "title": "Contact Us",
             "slug": "contact-us",
-            "sections": [
+            "containers": [
                 {
-                    "section_id": "hero_section",
+                    "container_id": "hero_section",
                     "content": {
                         "background_image": "https://example.com/contact-hero.jpg",
                         "heading": "<h1>Contact Us</h1>"
                     }
                 },
                 {
-                    "section_id": "contact_details",
+                    "container_id": "contact_details",
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
