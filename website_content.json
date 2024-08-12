@@ -80,7 +80,7 @@
                 {
                     "container_id": "hero_section",
                     "content": {
-                        "background_image": "https://example.com/hero.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>Welcome to Our Website</h1>",
                         "description": "<p>Explore our wide range of services and solutions tailored just for you.</p>",
                         "button": {
@@ -98,7 +98,7 @@
                             "description": "<p>Our company has been delivering quality services for over a decade...</p>"
                         },
                         "right_column": {
-                            "image": "https://example.com/about.jpg"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         }
                     }
                 },
@@ -108,7 +108,7 @@
                         "heading": "<h2>Our Services</h2>",
                         "columns": [
                             {
-                                "image": "https://example.com/service1.jpg",
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                                 "heading": "<h3>Service 1</h3>",
                                 "description": "<p>Service 1 is designed to meet your needs...</p>",
                                 "button": {
@@ -117,7 +117,7 @@
                                 }
                             },
                             {
-                                "image": "https://example.com/service2.jpg",
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                                 "heading": "<h3>Service 2</h3>",
                                 "description": "<p>Service 2 is focused on delivering results...</p>",
                                 "button": {
@@ -126,7 +126,7 @@
                                 }
                             },
                             {
-                                "image": "https://example.com/service3.jpg",
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                                 "heading": "<h3>Service 3</h3>",
                                 "description": "<p>Service 3 offers a unique approach...</p>",
                                 "button": {
@@ -140,7 +140,7 @@
                 {
                     "container_id": "cta_section",
                     "content": {
-                        "background_image": "https://example.com/cta.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h2>Ready to Get Started?</h2>",
                         "description": "<p>Contact us today to find out how we can help you achieve your goals.</p>",
                         "button": {
@@ -158,7 +158,7 @@
                 {
                     "container_id": "hero_section",
                     "content": {
-                        "background_image": "https://example.com/about-hero.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>About Us</h1>"
                     }
                 },
@@ -180,7 +180,7 @@
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
-                            "image": "https://example.com/history.jpg"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         },
                         "right_column": {
                             "heading": "<h2>Our History</h2>",
@@ -191,7 +191,7 @@
                 {
                     "container_id": "cta_section",
                     "content": {
-                        "background_image": "https://example.com/cta.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h2>Want to Know More?</h2>",
                         "description": "<p>Contact us for more details about our history and values.</p>",
                         "button": {
@@ -209,7 +209,7 @@
                 {
                     "container_id": "hero_section",
                     "content": {
-                        "background_image": "https://example.com/services-hero.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>Our Services</h1>"
                     }
                 },
@@ -222,7 +222,7 @@
                             "description": "<p>Our services are designed to provide you with the best solutions...</p>"
                         },
                         "right_column": {
-                            "image": "https://example.com/service-overview.jpg"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         }
                     }
                 },
@@ -231,7 +231,7 @@
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
-                            "image": "https://example.com/service1-detail.jpg"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         },
                         "right_column": {
                             "heading": "<h2>Service 1 Details</h2>",
@@ -248,14 +248,14 @@
                             "description": "<p>Service 2 focuses on delivering high-impact solutions...</p>"
                         },
                         "right_column": {
-                            "image": "https://example.com/service2-detail.jpg"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         }
                     }
                 },
                 {
                     "container_id": "cta_section",
                     "content": {
-                        "background_image": "https://example.com/cta.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h2>Get in Touch for More Info</h2>",
                         "description": "<p>Contact us to learn more about our services and how we can help you.</p>",
                         "button": {
@@ -273,7 +273,7 @@
                 {
                     "container_id": "hero_section",
                     "content": {
-                        "background_image": "https://example.com/gallery-hero.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>Our Gallery</h1>"
                     }
                 },
@@ -282,12 +282,12 @@
                     "content": {
                         "heading": "<h2>Gallery</h2>",
                         "images": [
-                            "https://example.com/gallery1.jpg",
-                            "https://example.com/gallery2.jpg",
-                            "https://example.com/gallery3.jpg",
-                            "https://example.com/gallery4.jpg",
-                            "https://example.com/gallery5.jpg",
-                            "https://example.com/gallery6.jpg"
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         ]
                     }
                 }
@@ -300,7 +300,7 @@
                 {
                     "container_id": "hero_section",
                     "content": {
-                        "background_image": "https://example.com/contact-hero.jpg",
+                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>Contact Us</h1>"
                     }
                 },
