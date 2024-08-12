@@ -14,7 +14,7 @@
       "linkColor": "#0066CC",
       "linkHoverColor": "#FF5733"
     },
-    "contentWidth": "100%", 
+    "contentWidth": "100%",
     "responsiveBreakpoints": {
       "themeMediumBreakpoint": "1024px",
       "themeMobileBreakpoint": "768px"
@@ -185,7 +185,7 @@
           "type": "content-row",
           "columns": [
             {
-              "title": "</h2>Service Overview</h2>",
+              "title": "<h2>Service Overview</h2>",
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             },
             {
@@ -239,35 +239,12 @@
       "template": "gallery.php",
       "sections": [
         {
-          "type": "hero",
-          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "<h1>Our Gallery</h2>",
-          "description": "Our collection of work."
-        },
-        {
           "type": "gallery",
           "images": [
-            {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/v2osk-1Z2niiBPg5A-unsplash.jpg",
-              "alt": "Sample Image"
-            },
-            {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/christopher-burns-kj2C7eYdPGo-unsplash.jpg",
-              "alt": "Sample Image"
-            },
-            {
-              "url": "http://localhost/automation/wp-content/uploads/2024/05/jason-leung-poI7DelFiVA-unsplash.jpg",
-              "alt": "Sample Image"
-            }
+            "http://localhost/automation/wp-content/uploads/2024/05/gallery1.jpg",
+            "http://localhost/automation/wp-content/uploads/2024/05/gallery2.jpg",
+            "http://localhost/automation/wp-content/uploads/2024/05/gallery3.jpg"
           ]
-        },
-        {
-          "type": "cta",
-          "background_color": "#007bff",
-          "title": "<h2>Contact Us</h2>",
-          "description": "Have a question or need assistance? Contact us today.",
-          "button_text": "Contact Us",
-          "button_link": "/contact/"
         }
       ]
     },
@@ -276,22 +253,31 @@
       "template": "contact.php",
       "sections": [
         {
-          "type": "hero",
-          "image": "http://localhost/automation/wp-content/uploads/2024/05/ajay-parthasarathy-I27kjbkwlAo-unsplash.jpg",
-          "title": "<h1>Contact Us</h1>",
-          "description": "We're here to help. Reach out to us anytime."
-        },
-        {
           "type": "contact-form",
-          "form_id": "12345"
-        },
-        {
-          "type": "cta",
-          "background_color": "#007bff",
-          "title": "<h2>Get in Touch</h2>",
-          "description": "Feel free to drop us a line anytime.",
-          "button_text": "Contact Us",
-          "button_link": "/contact/"
+          "form": {
+            "action": "/submit-form/",
+            "method": "POST"
+          },
+          "fields": [
+            {
+              "label": "Name",
+              "type": "text",
+              "name": "name",
+              "required": true
+            },
+            {
+              "label": "Email",
+              "type": "email",
+              "name": "email",
+              "required": true
+            },
+            {
+              "label": "Message",
+              "type": "textarea",
+              "name": "message",
+              "required": true
+            }
+          ]
         }
       ]
     }
