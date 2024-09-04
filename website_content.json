@@ -1,842 +1,383 @@
 {
-    "content": [
-      {
-        "id": "425bfbbd",
-        "settings": {
-          "flex_direction": "column",
-          "min_height": {
-            "unit": "vh",
-            "size": 75,
-            "sizes": []
+  "pages": [
+    {
+      "id": "home",
+      "content": [
+        {
+          "id": "6eeae359",
+          "settings": {
+            "flex_direction": "column",
+            "min_height": {
+              "unit": "vh",
+              "size": 75,
+              "sizes": []
+            },
+            "min_height_tablet": {
+              "unit": "vh",
+              "size": 60,
+              "sizes": []
+            },
+            "min_height_mobile": {
+              "unit": "vh",
+              "size": 50,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_image": {
+              "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
+              "id": 6089,
+              "size": "",
+              "alt": "",
+              "source": "library"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "20",
+              "isLinked": false
+            },
+            "_element_id": "home-hero-section"
           },
-          "min_height_tablet": {
-            "unit": "vh",
-            "size": 60,
-            "sizes": []
-          },
-          "min_height_mobile": {
-            "unit": "vh",
-            "size": 50,
-            "sizes": []
-          },
-          "flex_justify_content": "center",
-          "flex_align_items": "center",
-          "background_background": "classic",
-          "background_image": {
-            "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
-            "id": 6089,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
-          "background_position": "center center",
-          "background_repeat": "no-repeat",
-          "background_size": "cover",
-          "padding": {
-            "unit": "px",
-            "top": "0",
-            "right": "20",
-            "bottom": "0",
-            "left": "20",
-            "isLinked": false
-          },
-          "_element_id": "home-hero-section"
+          "elements": [
+            {
+              "id": "921afe8",
+              "settings": {
+                "content_width": "full",
+                "title": "Welcome to Our Home Page",
+                "header_size": "h1",
+                "align_mobile": "center"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "44e6c8e",
+              "settings": {
+                "content_width": "full",
+                "editor": "This is the introduction to our home page. We provide exceptional services to all our clients.",
+                "align_tablet": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            },
+            {
+              "id": "53f02051",
+              "settings": {
+                "content_width": "full",
+                "text": "Learn More"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "button",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "container"
         },
-        "elements": [
-          {
-            "id": "27adce0",
-            "settings": {
-              "content_width": "full",
-              "title": "Add Your Heading Text Here",
-              "header_size": "h1",
-              "align_mobile": "center"
+        {
+          "id": "5b9ada2b",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "%",
+              "size": 2,
+              "column": "2",
+              "row": "0"
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "heading",
-            "elType": "widget"
-          },
-          {
-            "id": "83da241",
-            "settings": {
-              "content_width": "full",
-              "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-              "align_tablet": "center",
-              "_margin": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              },
-              "_padding": {
-                "unit": "px",
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0",
-                "isLinked": true
-              }
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "50",
+              "right": "20",
+              "bottom": "50",
+              "left": "20",
+              "isLinked": false
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "text-editor",
-            "elType": "widget"
-          },
-          {
-            "id": "7b13ec89",
-            "settings": {
-              "content_width": "full",
-              "text": "Click here"
+            "padding_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "20",
+              "bottom": "30",
+              "left": "20",
+              "isLinked": false
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "button",
-            "elType": "widget"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "284b0279",
-        "settings": {
-          "flex_direction": "row",
-          "flex_gap": {
-            "unit": "%",
-            "size": 2,
-            "column": "2",
-            "row": "0"
+            "_element_id": "home-row1"
           },
-          "flex_align_items": "center",
-          "flex_gap_tablet": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "flex_gap_mobile": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "padding": {
-            "unit": "px",
-            "top": "50",
-            "right": "20",
-            "bottom": "50",
-            "left": "20",
-            "isLinked": false
-          },
-          "padding_mobile": {
-            "unit": "px",
-            "top": "30",
-            "right": "20",
-            "bottom": "30",
-            "left": "20",
-            "isLinked": false
-          },
-          "_element_id": "home-row1"
-        },
-        "elements": [
-          {
-            "id": "92cbe95",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "18edc493",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
+          "elements": [
+            {
+              "id": "3f22fd36",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "50"
+                }
               },
-              {
-                "id": "48f4880e",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          },
-          {
-            "id": "62f2eeb2",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "7a493cde",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "4816990",
-        "settings": {
-          "flex_direction": "row",
-          "flex_gap": {
-            "unit": "%",
-            "size": 2,
-            "column": "2",
-            "row": "0",
-            "isLinked": false
-          },
-          "flex_direction_mobile": "column-reverse",
-          "flex_align_items": "center",
-          "flex_gap_tablet": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "flex_gap_mobile": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "background_background": "classic",
-          "background_color": "#F1F1F1",
-          "padding": {
-            "unit": "px",
-            "top": "50",
-            "right": "20",
-            "bottom": "50",
-            "left": "20",
-            "isLinked": false
-          },
-          "_element_id": "home-row2"
-        },
-        "elements": [
-          {
-            "id": "3880796",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "2e28ddb1",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          },
-          {
-            "id": "2fd5d96c",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "7548259d",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
-              },
-              {
-                "id": "19147559",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "65c4043",
-        "settings": {
-          "flex_justify_content": "center",
-          "flex_align_items": "center",
-          "padding": {
-            "unit": "px",
-            "top": "50",
-            "right": "20",
-            "bottom": "0",
-            "left": "20",
-            "isLinked": false
-          },
-          "_element_id": "home-services-heading"
-        },
-        "elements": [
-          {
-            "id": "5dd78751",
-            "settings": {
-              "content_width": "full",
-              "title": "Add Your Heading Text Here",
-              "align_mobile": "center"
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "heading",
-            "elType": "widget"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "702a8c5c",
-        "settings": {
-          "flex_direction": "row",
-          "flex_gap": {
-            "unit": "%",
-            "size": 1,
-            "column": "1",
-            "row": "0",
-            "isLinked": false
-          },
-          "flex_justify_content": "center",
-          "flex_gap_tablet": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "flex_gap_mobile": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "padding": {
-            "unit": "px",
-            "top": "10",
-            "right": "20",
-            "bottom": "50",
-            "left": "20",
-            "isLinked": false
-          },
-          "_element_id": "home-callouts"
-        },
-        "elements": [
-          {
-            "id": "69dd74f9",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "6c158e9a",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              },
-              {
-                "id": "714a2e9f",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here",
-                  "header_size": "h3"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
-              },
-              {
-                "id": "4777cbdf",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              },
-              {
-                "id": "b6de54c",
-                "settings": {
-                  "content_width": "full",
-                  "text": "Click here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "button",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          },
-          {
-            "id": "731b4de8",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "39dd5d5f",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              },
-              {
-                "id": "6c45391f",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here",
-                  "header_size": "h3"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
-              },
-              {
-                "id": "574069b2",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              },
-              {
-                "id": "1ff37b9a",
-                "settings": {
-                  "content_width": "full",
-                  "text": "Click here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "button",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          },
-          {
-            "id": "1fb758b3",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "52ed690f",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              },
-              {
-                "id": "5a9abd23",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here",
-                  "header_size": "h3"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
-              },
-              {
-                "id": "57ab03f6",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              },
-              {
-                "id": "4b1465b4",
-                "settings": {
-                  "content_width": "full",
-                  "text": "Click here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "button",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "3c8472d4",
-        "settings": {
-          "flex_direction": "column",
-          "flex_justify_content": "center",
-          "flex_align_items": "center",
-          "background_background": "classic",
-          "background_color": "#F1F1F1",
-          "padding": {
-            "unit": "px",
-            "top": "50",
-            "right": "20",
-            "bottom": "70",
-            "left": "20",
-            "isLinked": false
-          }
-        },
-        "elements": [
-          {
-            "id": "7f4b121f",
-            "settings": {
-              "content_width": "full",
-              "title": "Add Your Heading Text Here",
-              "align_mobile": "center"
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "heading",
-            "elType": "widget"
-          },
-          {
-            "id": "46460a74",
-            "settings": {
-              "content_width": "full",
-              "wp_gallery": [
+              "elements": [
                 {
-                  "id": 43,
-                  "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harper-sunday-3130269.jpg"
+                  "id": "632b697d",
+                  "settings": {
+                    "content_width": "full",
+                    "title": "Our Services"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
                 },
                 {
-                  "id": 34,
-                  "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harrisonhaines-3800848.jpg"
-                },
-                {
-                  "id": 26,
-                  "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-hikaique-307847.jpg"
+                  "id": "3693ca8b",
+                  "settings": {
+                    "content_width": "full",
+                    "editor": "We offer a wide range of services to meet your needs."
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
                 }
               ],
-              "thumbnail_size": "full",
-              "gallery_columns": "3",
-              "open_lightbox": "yes",
-              "image_spacing": "custom",
-              "image_border_border": "none"
+              "isInner": true,
+              "elType": "container"
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "image-gallery",
-            "elType": "widget"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      },
-      {
-        "id": "33559bd3",
-        "settings": {
-          "flex_direction": "row",
-          "flex_gap": {
-            "unit": "%",
-            "size": 2,
-            "column": "2",
-            "row": "0"
-          },
-          "flex_justify_content": "center",
-          "flex_justify_content_mobile": "center",
-          "flex_align_items": "center",
-          "flex_gap_tablet": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "flex_gap_mobile": {
-            "column": "",
-            "row": "",
-            "isLinked": true,
-            "unit": "%",
-            "size": null
-          },
-          "padding": {
-            "unit": "px",
-            "top": "50",
-            "right": "20",
-            "bottom": "50",
-            "left": "20",
-            "isLinked": false
-          }
-        },
-        "elements": [
-          {
-            "id": "d72b8c8",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "7ba9bd25",
-                "settings": {
-                  "content_width": "full",
-                  "title": "Add Your Heading Text Here"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "heading",
-                "elType": "widget"
+            {
+              "id": "6c9d3478",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "50"
+                }
               },
-              {
-                "id": "31db380",
-                "settings": {
-                  "content_width": "full",
-                  "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "text-editor",
-                "elType": "widget"
-              },
-              {
-                "id": "3b3d7708",
-                "settings": {
-                  "content_width": "full",
-                  "tabs": [
-                    {
-                      "tab_title": "Accordion #1",
-                      "tab_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-                      "_id": "bc6b9a9"
-                    },
-                    {
-                      "tab_title": "Accordion #2",
-                      "tab_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-                      "_id": "de5e8aa"
-                    }
-                  ]
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "accordion",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          },
-          {
-            "id": "21a490cd",
-            "settings": {
-              "flex_direction": "column",
-              "content_width": "full",
-              "width": {
-                "unit": "%",
-                "size": "50"
-              }
-            },
-            "elements": [
-              {
-                "id": "6bd31e6c",
-                "settings": {
-                  "content_width": "full"
-                },
-                "elements": [],
-                "isInner": false,
-                "widgetType": "image",
-                "elType": "widget"
-              }
-            ],
-            "isInner": true,
-            "elType": "container"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
+              "elements": [
+                {
+                  "id": "2530c964",
+                  "settings": {
+                    "content_width": "full"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": false,
+          "elType": "container"
+        }
+      ],
+      "settings": {
+        "template": "elementor_canvas"
       },
-      {
-        "id": "46ee9722",
-        "settings": {
-          "flex_direction": "column",
-          "min_height": {
-            "unit": "vh",
-            "size": 40,
-            "sizes": []
+      "metadata": []
+    },
+    {
+      "id": "about",
+      "content": [
+        {
+          "id": "7fbbd001",
+          "settings": {
+            "flex_direction": "column",
+            "min_height": {
+              "unit": "vh",
+              "size": 60,
+              "sizes": []
+            },
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "background_background": "classic",
+            "background_image": {
+              "url": "http://localhost/codecraft/wp-content/uploads/2024/09/about-bg.jpg",
+              "id": 6090,
+              "size": "",
+              "alt": "",
+              "source": "library"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": false
+            },
+            "_element_id": "about-hero-section"
           },
-          "min_height_tablet": {
-            "unit": "vh",
-            "size": "",
-            "sizes": []
-          },
-          "min_height_mobile": {
-            "unit": "vh",
-            "size": 50,
-            "sizes": []
-          },
-          "flex_justify_content": "center",
-          "flex_align_items": "center",
-          "background_background": "classic",
-          "background_image": {
-            "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
-            "id": 6089,
-            "size": "",
-            "alt": "",
-            "source": "library"
-          },
-          "background_position": "center center",
-          "background_repeat": "no-repeat",
-          "background_size": "cover",
-          "padding": {
-            "unit": "px",
-            "top": "0",
-            "right": "20",
-            "bottom": "0",
-            "left": "20",
-            "isLinked": false
-          }
+          "elements": [
+            {
+              "id": "b9cd021a",
+              "settings": {
+                "content_width": "full",
+                "title": "About Us",
+                "header_size": "h1",
+                "align_mobile": "center"
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "heading",
+              "elType": "widget"
+            },
+            {
+              "id": "c2d99dff",
+              "settings": {
+                "content_width": "full",
+                "editor": "We are committed to providing the best services in the industry.",
+                "align_tablet": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": false,
+              "widgetType": "text-editor",
+              "elType": "widget"
+            }
+          ],
+          "isInner": false,
+          "elType": "container"
         },
-        "elements": [
-          {
-            "id": "76da186",
-            "settings": {
-              "content_width": "full",
-              "title": "Add Your Heading Text Here",
-              "align_mobile": "center"
+        {
+          "id": "4eeb8273",
+          "settings": {
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "%",
+              "size": 2,
+              "column": "2",
+              "row": "0"
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "heading",
-            "elType": "widget"
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "20",
+              "bottom": "40",
+              "left": "20",
+              "isLinked": false
+            },
+            "_element_id": "about-row1"
           },
-          {
-            "id": "4c5816ed",
-            "settings": {
-              "content_width": "full",
-              "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-              "align_tablet": "center"
+          "elements": [
+            {
+              "id": "8d15b5a1",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "60"
+                }
+              },
+              "elements": [
+                {
+                  "id": "a8234c97",
+                  "settings": {
+                    "content_width": "full",
+                    "title": "Our History"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "elType": "widget"
+                },
+                {
+                  "id": "2a6572a9",
+                  "settings": {
+                    "content_width": "full",
+                    "editor": "Our company has a long history of delivering exceptional service."
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
             },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "text-editor",
-            "elType": "widget"
-          },
-          {
-            "id": "16a05d83",
-            "settings": {
-              "content_width": "full",
-              "text": "Click here"
-            },
-            "elements": [],
-            "isInner": false,
-            "widgetType": "button",
-            "elType": "widget"
-          }
-        ],
-        "isInner": false,
-        "elType": "container"
-      }
-    ],
-    "page_settings": [],
-    "version": "0.4",
-    "title": "homepage",
-    "type": "page"
-  }
+            {
+              "id": "7a4b8a9b",
+              "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": "40"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ecdb68fa",
+                  "settings": {
+                    "content_width": "full"
+                  },
+                  "elements": [],
+                  "isInner": false,
+                  "widgetType": "image",
+                  "elType": "widget"
+                }
+              ],
+              "isInner": true,
+              "elType": "container"
+            }
+          ],
+          "isInner": false,
+          "elType": "container"
+        }
+      ],
+      "settings": {
+        "template": "elementor_canvas"
+      },
+      "metadata": []
+    }
+  ]
+}
