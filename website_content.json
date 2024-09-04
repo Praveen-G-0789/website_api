@@ -79,6 +79,11 @@
             "containers": [
                 {
                     "container_id": "hero_section",
+                    "alignment": {
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "direction": "column"
+                    },
                     "content": {
                         "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h1>Welcome to Our Website</h1>",
@@ -91,6 +96,11 @@
                 },
                 {
                     "container_id": "intro_section",
+                    "alignment": {
+                        "justify_content": "space-between",
+                        "align_items": "flex-start",
+                        "direction": "row"
+                    },
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
@@ -104,6 +114,11 @@
                 },
                 {
                     "container_id": "services_section",
+                    "alignment": {
+                        "justify_content": "space-around",
+                        "align_items": "center",
+                        "direction": "row"
+                    },
                     "content": {
                         "heading": "<h2>Our Services</h2>",
                         "columns": [
@@ -139,6 +154,11 @@
                 },
                 {
                     "container_id": "cta_section",
+                    "alignment": {
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "direction": "column"
+                    },
                     "content": {
                         "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
                         "heading": "<h2>Ready to Get Started?</h2>",
@@ -156,165 +176,111 @@
             "slug": "about",
             "containers": [
                 {
-                    "container_id": "hero_section",
+                    "container_id": "about_hero",
+                    "alignment": {
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "direction": "column"
+                    },
                     "content": {
                         "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h1>About Us</h1>"
+                        "heading": "<h1>About Us</h1>",
+                        "description": "<p>Learn more about our journey and values.</p>"
                     }
                 },
                 {
-                    "container_id": "intro_section",
+                    "container_id": "mission_section",
+                    "alignment": {
+                        "justify_content": "space-between",
+                        "align_items": "center",
+                        "direction": "row"
+                    },
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
+                        },
+                        "right_column": {
                             "heading": "<h2>Our Mission</h2>",
-                            "description": "<p>Our mission is to provide exceptional service...</p>"
-                        },
-                        "right_column": {
-                            "image": "https://example.com/mission.jpg"
+                            "description": "<p>Our mission is to provide the best services and solutions to our clients, ensuring their satisfaction and success.</p>"
                         }
                     }
                 },
                 {
-                    "container_id": "history_section",
+                    "container_id": "team_section",
+                    "alignment": {
+                        "justify_content": "space-around",
+                        "align_items": "center",
+                        "direction": "row"
+                    },
                     "content": {
-                        "layout": "2_columns",
-                        "left_column": {
-                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
-                        },
-                        "right_column": {
-                            "heading": "<h2>Our History</h2>",
-                            "description": "<p>Founded in 2000, our company has a rich history...</p>"
-                        }
-                    }
-                },
-                {
-                    "container_id": "cta_section",
-                    "content": {
-                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h2>Want to Know More?</h2>",
-                        "description": "<p>Contact us for more details about our history and values.</p>",
-                        "button": {
-                            "text": "Contact Us",
-                            "link": "/contact-us"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "title": "Services",
-            "slug": "services",
-            "containers": [
-                {
-                    "container_id": "hero_section",
-                    "content": {
-                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h1>Our Services</h1>"
-                    }
-                },
-                {
-                    "container_id": "service_overview",
-                    "content": {
-                        "layout": "2_columns",
-                        "left_column": {
-                            "heading": "<h2>Service Overview</h2>",
-                            "description": "<p>Our services are designed to provide you with the best solutions...</p>"
-                        },
-                        "right_column": {
-                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
-                        }
-                    }
-                },
-                {
-                    "container_id": "service_detail_1",
-                    "content": {
-                        "layout": "2_columns",
-                        "left_column": {
-                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
-                        },
-                        "right_column": {
-                            "heading": "<h2>Service 1 Details</h2>",
-                            "description": "<p>Service 1 offers a comprehensive approach...</p>"
-                        }
-                    }
-                },
-                {
-                    "container_id": "service_detail_2",
-                    "content": {
-                        "layout": "2_columns",
-                        "left_column": {
-                            "heading": "<h2>Service 2 Details</h2>",
-                            "description": "<p>Service 2 focuses on delivering high-impact solutions...</p>"
-                        },
-                        "right_column": {
-                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
-                        }
-                    }
-                },
-                {
-                    "container_id": "cta_section",
-                    "content": {
-                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h2>Get in Touch for More Info</h2>",
-                        "description": "<p>Contact us to learn more about our services and how we can help you.</p>",
-                        "button": {
-                            "text": "Contact Us",
-                            "link": "/contact-us"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "title": "Gallery",
-            "slug": "gallery",
-            "containers": [
-                {
-                    "container_id": "hero_section",
-                    "content": {
-                        "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h1>Our Gallery</h1>"
-                    }
-                },
-                {
-                    "container_id": "gallery_section",
-                    "content": {
-                        "heading": "<h2>Gallery</h2>",
-                        "images": [
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                            "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
+                        "heading": "<h2>Meet Our Team</h2>",
+                        "columns": [
+                            {
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                                "heading": "<h3>John Doe</h3>",
+                                "description": "<p>CEO</p>"
+                            },
+                            {
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                                "heading": "<h3>Jane Smith</h3>",
+                                "description": "<p>COO</p>"
+                            },
+                            {
+                                "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
+                                "heading": "<h3>Mike Johnson</h3>",
+                                "description": "<p>CTO</p>"
+                            }
                         ]
                     }
                 }
             ]
         },
         {
-            "title": "Contact Us",
-            "slug": "contact-us",
+            "title": "Contact",
+            "slug": "contact",
             "containers": [
                 {
-                    "container_id": "hero_section",
+                    "container_id": "contact_hero",
+                    "alignment": {
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "direction": "column"
+                    },
                     "content": {
                         "background_image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg",
-                        "heading": "<h1>Contact Us</h1>"
+                        "heading": "<h1>Contact Us</h1>",
+                        "description": "<p>We would love to hear from you. Get in touch with us for any inquiries.</p>"
                     }
                 },
                 {
                     "container_id": "contact_details",
+                    "alignment": {
+                        "justify_content": "space-between",
+                        "align_items": "flex-start",
+                        "direction": "row"
+                    },
                     "content": {
                         "layout": "2_columns",
                         "left_column": {
-                            "heading": "<h2>Get in Touch</h2>",
-                            "details": "<p>Address: 123 Main St, Anytown, USA</p><p>Phone: (123) 456-7890</p><p>Email: info@example.com</p><p>Follow us on social media...</p>"
+                            "heading": "<h2>Our Office</h2>",
+                            "description": "<p>1234 Street Name, City, Country</p><p>Phone: (123) 456-7890</p><p>Email: info@example.com</p>"
                         },
                         "right_column": {
-                            "gravity_form": "<!-- Gravity Form shortcode goes here -->"
+                            "image": "http://localhost/web-automation/wp-content/uploads/2024/08/pexels-olly-842811.jpg"
                         }
+                    }
+                },
+                {
+                    "container_id": "contact_form",
+                    "alignment": {
+                        "justify_content": "center",
+                        "align_items": "center",
+                        "direction": "column"
+                    },
+                    "content": {
+                        "heading": "<h2>Send Us a Message</h2>",
+                        "form_shortcode": "[contact-form-7 id='123' title='Contact form 1']"
                     }
                 }
             ]
