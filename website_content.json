@@ -1059,6 +1059,60 @@
                 "ast-site-content-layout": "full-width-container",
                 "site-sidebar-layout": "no-sidebar"
             }
+        },
+		
+		{
+    "title": "Gallery",
+    "content": [
+        {
+            "id": "236abf26",
+            "settings": {
+                "content_width": "full",
+                "title": "Add Your Heading Text Here",
+                "align_mobile": "center"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "heading",
+            "elType": "widget"
+        },
+        {
+            "id": "425e7dd9",
+            "settings": {
+                "content_width": "full",
+                "wp_gallery": [
+                    {
+                        "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harper-sunday-3130269.jpg"
+                    },
+                    {
+                        "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harrisonhaines-3800848.jpg"
+                    },
+                    {
+                        "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-hikaique-307847.jpg"
+                    }
+                ],
+                "thumbnail_size": "full",
+                "gallery_columns": "3",
+                "open_lightbox": "yes",
+                "image_spacing": "custom",
+                "image_border_border": "none"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "image-gallery",
+            "elType": "widget"
         }
+    ],
+    "settings": {
+        "template": "elementor_canvas"
+    },
+    "metadata": {
+        "site-post-title": "disabled",
+        "ast-title-bar-display": "disabled",
+        "ast-featured-img": "disabled",
+        "ast-site-content-layout": "full-width-container",
+        "site-sidebar-layout": "no-sidebar"
+    }
+}
     ]
 }
