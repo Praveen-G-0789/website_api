@@ -4,7 +4,7 @@
             "title": "Home",
             "content": [
                 {
-                    "id": "355f278d",
+                    "id": "",
                     "settings": {
                         "flex_direction": "column",
                         "min_height": {
@@ -27,7 +27,6 @@
                         "background_background": "classic",
                         "background_image": {
                             "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
-                            "id": 6089,
                             "size": "",
                             "alt": "",
                             "source": "library"
@@ -47,7 +46,7 @@
                     },
                     "elements": [
                         {
-                            "id": "1f38b160",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "title": "Add Your Heading Text Here",
@@ -60,7 +59,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "279ee6d1",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
@@ -88,7 +87,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "702eecaa",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "text": "Click here"
@@ -103,7 +102,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "56738484",
+                    "id": "",
                     "settings": {
                         "flex_direction": "row",
                         "flex_gap": {
@@ -147,7 +146,7 @@
                     },
                     "elements": [
                         {
-                            "id": "1ff80bb0",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -158,7 +157,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "6feb1deb",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here"
@@ -169,7 +168,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "48952a11",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -184,7 +183,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "23aeb6b",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -195,7 +194,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "4ab653dc",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -213,7 +212,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "106f357e",
+                    "id": "",
                     "settings": {
                         "flex_direction": "row",
                         "flex_gap": {
@@ -253,7 +252,7 @@
                     },
                     "elements": [
                         {
-                            "id": "11c76ce2",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -264,7 +263,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "201f4e82",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -278,7 +277,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "338d7179",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -289,7 +288,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "1a90e061",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here"
@@ -300,7 +299,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "73e314ba",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -319,7 +318,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "64e4137c",
+                    "id": "",
                     "settings": {
                         "flex_justify_content": "center",
                         "flex_align_items": "center",
@@ -335,7 +334,7 @@
                     },
                     "elements": [
                         {
-                            "id": "43e576d1",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "title": "Add Your Heading Text Here",
@@ -351,7 +350,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "b860dd5",
+                    "id": "",
                     "settings": {
                         "flex_direction": "row",
                         "flex_gap": {
@@ -388,7 +387,7 @@
                     },
                     "elements": [
                         {
-                            "id": "4a3da81d",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -399,7 +398,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "bb6d4a6",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -409,7 +408,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "199453bd",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here",
@@ -421,7 +420,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "76084844",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -432,7 +431,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "52245ac4",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "text": "Click here"
@@ -447,7 +446,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "665cfaf6",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -458,7 +457,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "485dde1f",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -468,7 +467,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "73946165",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here",
@@ -480,7 +479,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "4e43b8d8",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -491,7 +490,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "473fca48",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "text": "Click here"
@@ -506,7 +505,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "77af6209",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -517,7 +516,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "18fd8752",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -527,7 +526,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "1ef9dcbc",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here",
@@ -539,7 +538,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "7198fdd2",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -550,7 +549,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "1b0a6f76",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "text": "Click here"
@@ -569,7 +568,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "884847f",
+                    "id": "",
                     "settings": {
                         "flex_direction": "column",
                         "flex_justify_content": "center",
@@ -587,7 +586,7 @@
                     },
                     "elements": [
                         {
-                            "id": "236abf26",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "title": "Add Your Heading Text Here",
@@ -599,20 +598,20 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "425e7dd9",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "wp_gallery": [
                                     {
-                                        "id": 43,
+                              
                                         "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harper-sunday-3130269.jpg"
                                     },
                                     {
-                                        "id": 34,
+                                      
                                         "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-harrisonhaines-3800848.jpg"
                                     },
                                     {
-                                        "id": 26,
+                                        
                                         "url": "http://localhost/codecraft/wp-content/uploads/2024/08/pexels-hikaique-307847.jpg"
                                     }
                                 ],
@@ -632,7 +631,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "35051e67",
+                    "id": "",
                     "settings": {
                         "flex_direction": "row",
                         "flex_gap": {
@@ -669,7 +668,7 @@
                     },
                     "elements": [
                         {
-                            "id": "a637710",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -680,7 +679,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "3461aca",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Add Your Heading Text Here"
@@ -691,7 +690,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "5882cbd2",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
@@ -702,7 +701,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "6d18ba26",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "tabs": [
@@ -728,7 +727,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "7abcb373",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -739,7 +738,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "1c6ba7a2",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full"
                                     },
@@ -757,7 +756,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "8697caa",
+                    "id": "",
                     "settings": {
                         "flex_direction": "column",
                         "min_height": {
@@ -780,7 +779,6 @@
                         "background_background": "classic",
                         "background_image": {
                             "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
-                            "id": 6089,
                             "size": "",
                             "alt": "",
                             "source": "library"
@@ -799,7 +797,7 @@
                     },
                     "elements": [
                         {
-                            "id": "39561ed0",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "title": "Add Your Heading Text Here",
@@ -811,7 +809,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "41c73d86",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "editor": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
@@ -823,7 +821,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "7819a9c2",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "text": "Click here"
@@ -847,7 +845,7 @@
             "title": "About",
             "content": [
                 {
-                    "id": "3c8f5a8c",
+                    "id": "",
                     "settings": {
                         "flex_direction": "column",
                         "min_height": {
@@ -870,7 +868,6 @@
                         "background_background": "classic",
                         "background_image": {
                             "url": "http://localhost/codecraft/wp-content/uploads/2024/09/pexels-francesco-ungaro-281260.jpg",
-                            "id": 6089,
                             "size": "",
                             "alt": "",
                             "source": "library"
@@ -890,7 +887,7 @@
                     },
                     "elements": [
                         {
-                            "id": "691b926b",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "title": "Welcome to Our Home Page",
@@ -903,7 +900,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "5c4dd228",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "editor": "This is the introduction to our home page. We provide exceptional services to all our clients.",
@@ -931,7 +928,7 @@
                             "elType": "widget"
                         },
                         {
-                            "id": "28473618",
+                            "id": "",
                             "settings": {
                                 "content_width": "full",
                                 "text": "Learn More"
@@ -946,7 +943,7 @@
                     "elType": "container"
                 },
                 {
-                    "id": "5cba0a2a",
+                    "id": "",
                     "settings": {
                         "flex_direction": "row",
                         "flex_gap": {
@@ -976,7 +973,7 @@
                     },
                     "elements": [
                         {
-                            "id": "1c622bbe",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -987,7 +984,7 @@
                             },
                             "elements": [
                                 {
-                                    "id": "344ca664",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "title": "Our Services"
@@ -998,7 +995,7 @@
                                     "elType": "widget"
                                 },
                                 {
-                                    "id": "787549ba",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "editor": "We offer a wide range of services to meet your needs."
@@ -1013,7 +1010,7 @@
                             "elType": "container"
                         },
                         {
-                            "id": "1a6832ab",
+                            "id": "",
                             "settings": {
                                 "flex_direction": "column",
                                 "content_width": "full",
@@ -1024,12 +1021,11 @@
                             },
                             "elements": [
                                 {
-                                    "id": "2ebc647c",
+                                    "id": "",
                                     "settings": {
                                         "content_width": "full",
                                         "image": {
                                             "url": "http://localhost/codecraft/wp-content/uploads/2024/08/innerhero.jpg",
-                                            "id": 33,
                                             "size": "",
                                             "alt": "Image Not Found.",
                                             "source": "library"
